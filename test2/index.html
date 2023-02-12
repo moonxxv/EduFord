@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<script src="https://kit.fontawesome.com/18e4d05466.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <h1>Eduford</h1>
+
+    <section class="header" >
+        <nav>
+            <a href="index.html"><img src="src/eduford_img/logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+  <div class="text-box">
+      <h1>World's Biggest University</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quo reici
+        endis beatae aperiam tempora <br> placeat hic vel animi molestiae distinctio?
+    </p>
+        <a href="" class="hero-btn">Visit us to know more</a>
+  </div>      
+    </section>
+
+    
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(params) {
+        navLinks.style.right = "0";
+    }
+    function hideMenu(params) {
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Voluptas nisi praesentium
+                    earum inventore quae quam iure, totam neque
+                    error omnis assumenda ex consectetur harum at!</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Voluptas nisi praesentium
+                    earum inventore quae quam iure, totam neque
+                    error omnis assumenda ex consectetur harum at!</p>
+
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Voluptas nisi praesentium
+                    earum inventore quae quam iure, totam neque
+                    error omnis assumenda ex consectetur harum at!</p>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    
+    <div class="row">
+        <div class="campus-col">
+            <img src="src/eduford_img/london.png">
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="src/eduford_img/newyork.png">
+            <div class="layer">
+                <h3>New yourk</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="src/eduford_img/washington.png">
+            <div class="layer">
+                <h3>Washington</h3>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="src/eduford_img/library.png">
+            <h3>World Class Library</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Officiis maiores harum numquam laboriosam.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="src/eduford_img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Officiis maiores harum numquam laboriosam.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="src/eduford_img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Officiis maiores harum numquam laboriosam.</p>
+        </div>
+    </div>
+</section>
+<section class="testimonials">
+    <h1>What Our Student Says</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <div class="row">
+        <div class="testimonial-col">
+            <img src="src/eduford_img/user1.jpg">
+            <div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit quaerat error id veritatis saepe modi, repudiandae
+                magni velit, voluptate magnam non quo ullam minima maiores.</p>
+                <h3>Christine Barkley</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+
+            </div>
+        </div>
+    
+    <div class="testimonial-col">
+        <img src="src/eduford_img/user2.jpg">
+        <div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Suscipit quaerat error id veritatis saepe modi, repudiandae
+            magni velit, voluptate magnam non quo ullam minima maiores.</p>
+            <h3>David Byer</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o" ></i>
+        </div>
+    </div>
+    
+</div>
+
+</section>
+<section class="cta" >
+    <h1>Enroll For Our Various Online Courses <br> Anymhere from The Worlds</h1>
+    <a href="contact.html" class="hero-btn"> CONTACT US</a>
+</section>
+<section class="footer" >
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Cumque, nulla suscipit? Velit cumque tempora <br>
+        sit nulla nihil perspiciatis saepe unde ullam. Repudiandae, animi.</p>
+        <div class="icons">
+            <i  class="fa-brands fa-facebook" ><a href="https://www.facebook.com/itrunkids.bishkek/"></a></i>
+            <i class="fa-brands fa-twitter"><a href="https://twitter.com/"></a></i>
+            <i class="fa-brands fa-instagram"><a href="https://www.instagram.com/itrun_kids/"></a></i>
+            <i class="fa-brands fa-linkedin"><a href="https://ru.linkedin.com/"></a></i>
+        </div>
+
+</section>
+</body>
+
+</html>
